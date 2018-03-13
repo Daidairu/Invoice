@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_ads_banner.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_ads_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_notification.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_toast_notification.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_toast_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_notification.xml",
+        "source": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_toast_notification.xml",
+        "source": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_toast_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\build\\intermediates\\res\\merged\\release\\layout\\com_xinstars_ads_banner.xml",
+        "source": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\xinStarsHelperLib\\src\\main\\res\\layout\\com_xinstars_ads_banner.xml"
+    }
+]

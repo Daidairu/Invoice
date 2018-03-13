@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<View-->
+    <!--android:id="@+id/centerHorizont2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/colorAccent"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/centerHorizont2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@mipmap/dataline" />
+
+
+        <LinearLayout
+            android:id="@+id/LinearText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerHorizont2"
+            android:background="@mipmap/dataup"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="TextView"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/scView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerHorizont3"
+            android:background="@mipmap/datamid2">
+
+            <LinearLayout
+                android:id="@+id/rll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/centerHorizont3"
+                android:orientation="horizontal"
+
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/rllFish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rllL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rllR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/textViewS2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:background="@color/colorAccent"-->
+
+        <!--android:layout_below="@id/scView" />-->
+
+        <View
+            android:id="@+id/centerHorizont3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/LinearText"
+            android:background="@mipmap/dataline" />
+
+
+        <View
+            android:id="@+id/centerHorizont4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/scView"
+            android:background="@mipmap/dataline" />
+
+        <LinearLayout
+            android:id="@+id/LinearTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerHorizont4"
+            android:background="@mipmap/datadown1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/LinearCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="金額"
+                    android:textColor="#404040"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/datafish2"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearTotal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/centerHorizont5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@mipmap/dataline" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

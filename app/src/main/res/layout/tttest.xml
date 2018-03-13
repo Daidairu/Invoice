@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/relativeMoney"
+        android:layout_alignParentTop="true">
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+
+    <RelativeLayout
+        android:layout_above="@+id/relativeMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/invview">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeMoney"
+        android:layout_above="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/invmoney">
+
+        <TextView
+            android:id="@+id/textView_getMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView_costMoney"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/textView_costMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeL"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageViewLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeL"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/invlisttop1"
+            app:srcCompat="@mipmap/invlisttop1" />
+
+
+        <ImageView
+            android:id="@+id/imageViewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeR"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/invlisttop2"
+            app:srcCompat="@mipmap/invlisttop2" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/centerHorizont"
+        android:layout_alignParentBottom="true">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLbtn">
+
+            <LinearLayout
+                android:id="@+id/listLayout_L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ListView
+                    android:id="@+id/listview_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="288dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btnClear_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnleft"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/centerHorizont"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/centerHorizont"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeRbtn"
+            >
+
+            <LinearLayout
+                android:id="@+id/listLayout_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ListView
+                    android:id="@+id/listview_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="288dp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btnClear_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnright"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLine"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/invlistmid"
+        android:gravity="center"
+        android:orientation="vertical"></LinearLayout>
+    <!--android:layout_alignParentBottom="true"-->
+
+</RelativeLayout>

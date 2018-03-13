@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout_Banner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:visibility="gone" >
+    
+    <ImageView
+        android:id="@+id/xinstars_imageview_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/xinstars_imagebutton_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignRight="@id/xinstars_imageview_banner"
+        android:layout_alignTop="@id/xinstars_imageview_banner"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/xinstars_banner_btn_close"
+        android:visibility="invisible" />
+
+</RelativeLayout>

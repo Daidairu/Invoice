@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Invoice\\zxing-android-embedded\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Invoice\\zxing-android-embedded\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\zxing-android-embedded\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\zxing-android-embedded\\res\\layout\\zxing_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\zxing-android-embedded\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\hungju.hsiao\\Desktop\\Invoice\\zxing-android-embedded\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Invoice\\zxing-android-embedded\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Invoice\\zxing-android-embedded\\res\\layout\\zxing_barcode_scanner.xml"
+    }
+]
